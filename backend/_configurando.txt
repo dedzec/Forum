@@ -1,0 +1,20 @@
+Instalando o projeto:
+
+- Acesse a pasta do projeto via termina e instale as dependencias com o comando [npm i] ou [npm init]
+- O mongoDB deve estar instalado na maquina
+- configure o arquivo .env
+    * copie e cole o arquivo env_file no projeto backend com o nome de [.env]
+    * coloque um palavra chave/segredo para gerar o token
+- Instale a dempendencia do MySQL com o comando [npm install --save mysql]
+    * exemplos: 'https://medium.com/@almeida.adriano/integrando-o-mysql-ao-nodejs-84dd5a9c8396'
+obs: * a biblioteca que acessa o mysql ou postgres é o knex.
+     * caso não esteja instalado na maquina utilize o com o comando [npm i -g knex]
+     * em seguida, deve ser iniciado dentro do projeto backend com o comendo [knex init]
+     * criando os arquivos de configuração pelo terminal: knex migrate:make [create_table_'NomeDaTabela']
+     * depois que as migrations forem codificadas, rode no terminal [kenx migrate:latest] para rodar o metodo UP
+     * para rodar o metodo DOWN [kenx migrate:rollback]
+
+* Startando o Projeto
+- start Mongod
+- inicie o wanpserver
+- npm start ou npm run start

@@ -1,0 +1,8 @@
+Instalando o projeto:
+
+- Acesse a pasta do projeto via termina e instale as dependencias com o comando [npm i] ou [npm init]
+
+* Startando o projeto
+- Caso seja a primeira vez, deve ser informado a porta:
+    * npm run serve -- --port 8080
+- npm run serve
